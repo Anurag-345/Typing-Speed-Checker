@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>typing speed Checker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="B:\web dev projects\typing speed checker\css\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand" href="#" style="margin-left: 30px;">Typing BoX</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#main-div">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Help<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <p>Follow the below Steps to check your speed:<br>
+            1. Press the 'Start' button.<br>
+            2. An sentence will appear.<br>
+            3. Type the Sentecne in the Typebox.<br>
+            4. After typing press 'Done'.<br>
+            5. Now The result will appear.<br>
+            6. You can create the typeBox using 'Clear' button.<br> 
+          </p>
+        </ul>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container-fluid" id="main-div"> 
+    
+<div class="container" id="center-div">
+  <h1>Press start and type the below sentence to check Your speed and Accuracy</h1>
+  <h2 id="hidtext"></h2>
+  <h3 id="warn" ></h3>
+  <textarea class="container-fluid" id="mywords" cols = '100' rows="10" placeholder="Type Here..."></textarea>
+  <br>
+
+<button id = 'strbtn'>Start</button>
+<br>
+<button id = 'clrbtn'>Clear</button>
+
+
+</div>
+<script type = "text/javascript" src="mody.js"></script>
+</body>
+</html>

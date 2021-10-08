@@ -1,0 +1,128 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+::placeholder {
+  color: black;
+  font-weight: bolder;
+  opacity: 1; /* Firefox */
+}
+
+.navbar:before{
+
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	z-index: -3;
+	background: linear-gradient(to right,purple 0%,black 0%,purple 100%);
+	margin-top: 3px;
+
+
+}
+.nav-item a{
+	color: #fff!important;
+	
+}
+#help-para{
+	color: white;
+}
+
+
+
+#main-div{
+	width:200;
+	height: 120vh;
+	position:relative;
+	background-image:linear-gradient(rgba(90,0 ,90,0.3), rgba(0,0,70,0.3)),url('../images/woman-use-laptop-computer-home-260nw-1687089757.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center center;
+	opacity: 0.9;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+	margin-right: 0;
+
+}
+.navbar-nav{
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+
+#center-div{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+
+
+}
+h1{
+	margin-bottom: 30px;
+	color: black;
+	font-weight: bolder;
+	z-index: -1;
+}
+h2{
+	text-align: center;
+	color : whitesmoke;
+	text-shadow: 3px 3px 20px black;
+	font-weight: bolder;
+}
+#strbtn{
+	width: 100px;
+	font-size: 16px ;
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: 2px 3px 10px black;
+	background:  #5c085a;
+	font-weight: bold;
+	margin-bottom: 25px;
+
+
+}
+
+#clrbtn{
+
+  color: white;
+	font-size: 16px ;
+	border-radius: 10px;
+	padding: 10px;
+	background:  black;
+	font-weight: bold;
+	margin-bottom: 25px;
+
+
+}
+
+h3{
+	color: red;
+}
+
+#mywords{
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 7px 3px 10px black;
+	margin: 10px;
+	background: transparent ;
+	border:  1px solid black;
+	color: white;
+	transition: all 1s ease-in-out;
+	background: linear-gradient(rgba(0,40 ,20,0.3), rgba(0,0,30,0.3));
+	font-size: 15px;
+
+
+}
+#strbtn:hover{
+	transform: translate(3px);
+	background: white;
+}
